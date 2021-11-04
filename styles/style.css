@@ -1,0 +1,176 @@
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body{
+font-family: Helvetica, Calibri, Arial, sans-serif;
+}
+
+/* Header section */
+
+header{
+    height: 100vh;
+    background:#FAE62D;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    justify-content:space-evenly;
+    text-align: center;
+    color:#1A2238;
+}
+
+header img{
+    height: 12em;
+    border-radius: 50%;
+    width: 190px;
+    height: 190px;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2), 0 10px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+header h1{
+    font-size: 4.5em;
+    margin: 0.25em;
+}
+
+.typewriter h2 {
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    font-size: 2em;
+    border-right: .15em solid orange; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em; /* Adjust as needed */
+    animation: 
+        typing 3.5s steps(40, end),
+        blink-caret .75s step-end infinite;
+  }
+  
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: #1A2238; }
+  }
+
+.round {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    text-align: center;
+}
+
+.round h3 {
+    margin-top: 50px;
+    margin-left: -24px;
+    color:#1A2238;
+    width: 100px;
+}
+
+span {
+    z-index: 999;
+    height: 3px;
+    width: 16px;
+    background: #1A2238;
+    transition: 0.4s ease;
+}
+
+span:first-child {
+    display: block;
+    position: absolute;
+    transform: rotate(45deg);
+    left: 25%;
+    bottom: 35%;
+}
+
+span:nth-child(2) {
+    display: block;
+    position: absolute;
+    transform: rotate(-45deg);
+    left: 45%;
+    bottom: 35%;
+}
+
+span:nth-child(3) {
+    display: block;
+    position: absolute;
+    transform: rotate(45deg);
+    left: 25%;
+    bottom: 54%;
+}
+
+span:nth-child(4) {
+    display: block;
+    position: absolute;
+    transform: rotate(-45deg);
+    left: 45%;
+    bottom: 54%;
+}
+
+.round:hover span:nth-child(1) {
+    transform: rotate(-135deg);
+}
+
+.round:hover span:nth-child(2) {
+    transform: rotate(135deg);
+}
+
+.round:hover span:nth-child(3) {
+    transform: rotate(225deg);
+}
+
+.round:hover span:nth-child(4) {
+    transform: rotate(-225deg);
+}
+
+
+/* nav section */
+
+a{
+    color:#FAE62D;
+    text-decoration:none;
+    font-weight:bold;
+}
+nav {
+    display:flex;
+    justify-content:space-evenly;
+    z-index:2;
+    position: sticky;
+    background-color:#1A2238;
+    font-size: 1.25em;
+    padding: 0.85em;
+    top:0;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2), 0 10px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+
+
+
+
+
+section{
+    height: 100vh;
+    background: transparent;
+}
