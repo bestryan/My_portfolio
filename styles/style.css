@@ -1,22 +1,6 @@
-html, body, div, span, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-abbr, address, cite, code,
-del, dfn, em, img, ins, kbd, q, samp,
-small, strong, sub, sup, var,
-b, i,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section, summary,
-time, mark, audio, video {
-    margin:0;
-    padding:0;
-    border:0;
-    outline:0;
-    font-size:100%;
-    vertical-align:baseline;
-    background:transparent;
+*{
+    margin: 0;
+    padding: 0;
 }
 
 body{
@@ -47,6 +31,7 @@ header img{
 header h1{
     font-size: 4.5em;
     margin: 0.25em;
+    color:#1A2238;
 }
 
 .typewriter h2 {
@@ -82,10 +67,11 @@ header h1{
 }
 
 .round h3 {
+    font-size: 14px;
     margin-top: 50px;
-    margin-left: -24px;
+    margin-left: -28px;
     color:#1A2238;
-    width: 100px;
+    width: 110px;
 }
 
 span {
@@ -148,29 +134,67 @@ span:nth-child(4) {
 /* nav section */
 
 a{
-    color:#FAE62D;
     text-decoration:none;
-    font-weight:bold;
 }
+
+nav a {
+    color:#FAE62D;
+    font-size: 1.25em;
+    font-weight: bold;
+    padding: 14px 0;
+}
+
 nav {
     display:flex;
     justify-content:space-evenly;
     z-index:2;
     position: sticky;
     background-color:#1A2238;
-    font-size: 1.25em;
-    padding: 0.85em;
     top:0;
     box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2), 0 10px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+a:hover{
+    color: #1FC58E;
+}
 
 
+/* mian section */
+.dark{
+    background-color:#1A2238;
+}
+.purple{
+    background-color:#9DAAF2;
+}
+.orange{
+    background-color:#FF6A3D;
+}
+.yellow{
+    background-color:#FAE62D;
+}
 
-
-
+.green{
+    background-color:#1FC58E;
+}
 
 section{
-    height: 100vh;
+    height: 500px;
     background: transparent;
+}
+
+
+section .header {
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    display: flex;
+    padding: 0.5em;
+    margin: 0 20px;
+    border-bottom: 4px solid #1A2238;
+    height: 18vh;
+}
+
+p{
+    margin: 0 20px;
+    margin-top: 20px;
 }

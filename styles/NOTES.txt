@@ -1,4 +1,9 @@
+Design color option
+
 #1A2238 dark blue
 #9DAAF2 purple
 #FF6A3D orange
 #F4DB7D yellow
+#1FC58E green
+
+#FAE62D 
