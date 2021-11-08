@@ -277,7 +277,7 @@ h2{
 }
 
 .proj_text_box #app_img{
-    width:  700px;
+    width:  800px;
     height: auto;
 }
 
@@ -449,7 +449,6 @@ h2{
 }
 
 
-
 footer{
     background-color: #1A2238;
     height: 20px;
@@ -465,16 +464,16 @@ footer{
     }
 
     header h1{
-        font-size: 60px;
+        font-size: 55px;
     }
 
     .typewriter h2 {
-        font-size: 26px;
+        font-size: 24px;
     }
 
     .about_text{
         width: 450px;
-        margin-left: 50px;
+        margin-left: 20px;
         margin-top: 20px;
     }
     
@@ -490,43 +489,42 @@ footer{
         height: 230px;
         width: auto;
         left: 25%;
-        top: 168%;
+        top: 170%;
     }
     .code{
         height: 120px;
         width: auto;
         left: 55%;
-        top: 188%;
+        top: 191%;
     }
 
     .proj_text_box #app_img{
-        width:  480px;
+        width:  420px;
         height: auto;
     }
 
 
-
     /* skill section */
     .skill_box #one{
-        width: 250px;
+        width: 150px;
     }
     .skill_box #two{
-        width: 350px;
+        width: 250px;
     }
     .skill_box #three{
-        width: 500px;
+        width: 400px;
     }
     .skill_box #four{
-        width: 390px;
+        width: 290px;
     }
     .skill_box #five{
-        width: 470px;
+        width: 370px;
     }
     .skill_box #six{
-        width: 500px;
+        width: 400px;
     }
     .skill_box #seven{
-        width: 370px;
+        width: 340px;
     }
     .skill_box #eight{
         width: 420px;
@@ -536,7 +534,7 @@ footer{
     }
 
     .about{
-        height: 110vh;
+        height: 120vh;
     }
 
 
