@@ -457,7 +457,7 @@ footer{
 
 /* Responsive page section */
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 600px) {
     nav a {
         padding: 16px 0;
         font-size: 18px;
@@ -468,75 +468,91 @@ footer{
     }
 
     .typewriter h2 {
-        font-size: 24px;
+        font-size: 18px;
     }
 
     .about_text{
-        width: 450px;
+        width: auto;
         margin-left: 20px;
         margin-top: 20px;
     }
     
     .about_text h2{
-        font-size: 30px;
+        font-size: 28px;
     }
 
     .about_text h3{
-        font-size: 22px;
+        font-size: 20px;
+    }
+
+    .about_text p{
+        font-size: 18px;
     }
 
     .computer{
-        height: 230px;
-        width: auto;
-        left: 25%;
-        top: 170%;
+    display: none;
     }
     .code{
-        height: 120px;
-        width: auto;
-        left: 55%;
-        top: 191%;
+        display: none;
     }
 
     .proj_text_box #app_img{
-        width:  420px;
+        width:  350px;
         height: auto;
+    }
+
+
+    .proj_data{
+        margin: 5px 5px;
     }
 
 
     /* skill section */
     .skill_box #one{
-        width: 150px;
+        width: 100px;
     }
     .skill_box #two{
-        width: 250px;
+        width: 120px;
     }
     .skill_box #three{
-        width: 400px;
+        width: 250px;
     }
     .skill_box #four{
         width: 290px;
     }
     .skill_box #five{
-        width: 370px;
+        width: 320px;
     }
     .skill_box #six{
-        width: 400px;
+        width: 300px;
     }
     .skill_box #seven{
         width: 340px;
     }
     .skill_box #eight{
-        width: 420px;
+        width: 350px;
     }
     .skill_box #nice{
         width: 290px;
     }
 
-    .about{
-        height: 120vh;
+    .skills h2{
+        font-size: 22px;
     }
 
+    .skill_box p{
+        font-size: 15px;
+    }
+
+
+
+    .contact h1{
+        font-size: 24px;
+    }
+    
+    .click img{
+        width: 40px;
+    }
 
 
 
