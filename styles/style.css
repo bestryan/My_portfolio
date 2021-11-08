@@ -1,6 +1,8 @@
 *{
     margin: 0;
     padding: 0;
+    color: #1A2238;
+    font-family: "Barlow",sans-serif;
 }
 
 body{
@@ -11,7 +13,7 @@ font-family: Helvetica, Calibri, Arial, sans-serif;
 
 header{
     height: 100vh;
-    background:#FAE62D;
+    background:#7DA2A9;
     align-items: center;
     flex-direction: column;
     display: flex;
@@ -29,14 +31,13 @@ header img{
 }
 
 header h1{
-    font-size: 4.5em;
+    font-size: 70px;
     margin: 0.25em;
-    color:#1A2238;
 }
 
 .typewriter h2 {
     overflow: hidden; /* Ensures the content is not revealed until the animation */
-    font-size: 2em;
+    font-size: 30px;
     border-right: .15em solid orange; /* The typwriter cursor */
     white-space: nowrap; /* Keeps the content on a single line */
     margin: 0 auto; /* Gives that scrolling effect as the typing happens */
@@ -70,7 +71,6 @@ header h1{
     font-size: 14px;
     margin-top: 50px;
     margin-left: -28px;
-    color:#1A2238;
     width: 110px;
 }
 
@@ -138,10 +138,10 @@ a{
 }
 
 nav a {
-    color:#FAE62D;
+    color:#F7F7F7;
     font-size: 1.25em;
     font-weight: bold;
-    padding: 14px 0;
+    padding: 18px 0;
 }
 
 nav {
@@ -155,46 +155,391 @@ nav {
 }
 
 a:hover{
-    color: #1FC58E;
+    color: #7DA2A9;
 }
 
 
 /* mian section */
-.dark{
-    background-color:#1A2238;
-}
-.purple{
-    background-color:#9DAAF2;
-}
-.orange{
-    background-color:#FF6A3D;
-}
-.yellow{
-    background-color:#FAE62D;
-}
-
-.green{
-    background-color:#1FC58E;
-}
 
 section{
-    height: 500px;
-    background: transparent;
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid red; */
+    background-color: #F7F7F7;
+    padding: 0.5em;
 }
-
 
 section .header {
-    justify-content: center;
-    align-items: center;
-    font-size: 2em;
     display: flex;
-    padding: 0.5em;
-    margin: 0 20px;
-    border-bottom: 4px solid #1A2238;
-    height: 18vh;
+    font-size: 24px;
+    justify-content:center;
+    align-items: flex-end;
+    margin: 10px 15px 20px 15px;
+    height: 5vh;
 }
 
-p{
-    margin: 0 20px;
+section .header h1{
+    color: #1A2238;
+    margin-bottom: 10px;
+}
+
+/* about me section */
+
+.about{
+    background-image: url("../images/about_banner.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* border-bottom: 4px solid #7DA2A9; */
+    height: 100vh;
+}
+
+.about_text{
+    width: 540px;
+    margin-left: 80px;
     margin-top: 20px;
 }
+
+.about_text h2{
+    font-size: 36px;
+    margin-bottom: 20px
+}
+
+.about_text h3{
+    font-size: 25px;
+    margin-bottom: 35px
+}
+
+.about_text p{
+    font-size: 18px;
+    margin-bottom: 20px;
+    line-height: 1.4;
+    
+}
+
+.computer{
+    height: 320px;
+    width: auto;
+    position: absolute;
+    left: 62%;
+    top: 130%;
+}
+
+.code{
+    height: 140px;
+    width: auto;
+    position: absolute;
+    left: 82%;
+    top: 160%;
+}
+
+
+/* #database{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+h2{
+    font-size: 20px;
+}
+
+#box{
+    width:350px;
+    padding:20px;
+    margin: 20px;
+    height: 300px;
+}
+
+#database #box #divt{
+    display: none;
+}
+
+#database #box:hover{
+    background-color: #e7e4e4;
+    opacity: 0.8;
+}
+
+#database #box:hover p{
+    display: none;
+}
+
+#database #box:hover #divt{
+    display: block;
+} */
+
+
+
+
+/* projects section */
+
+.proj_data{
+    margin: 5px 40px;
+}
+
+.proj_text_box #app_img{
+    width:  700px;
+    height: auto;
+}
+
+.proj_text_box h2 ,h3 ,p, img{
+    margin-bottom: 20px;
+    line-height: 1.4;
+}
+
+.proj_text_box #app_img{
+    border-bottom: 1px solid #7DA2A9;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+
+.launch img{
+    width: 40px;
+    height: auto;
+}
+
+
+#app_img {
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+#app_img:hover {opacity: 0.7;}
+  
+
+
+/* Skill Section */
+
+.skills{
+    background-image: url("../images/about_banner.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* border-bottom: 4px solid #7DA2A9; */
+    height: 100vh;
+}
+
+.skills h2{
+    font-size: 30px;
+    margin-bottom:40px;
+    text-align: center;
+    padding: 20px;
+}
+
+.skill_box{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: bold;
+    }
+
+.skill_box p{
+    margin: 0;
+    font-size: 18px;
+    padding: 11px
+}
+
+
+.skill_box #two p, 
+#four p, #six p, #eight p{
+    color: #F7F7F7;
+}
+
+.skill_box #one{
+    background-color:#7DA2A9;
+    width: 350px;
+    border-radius: 8px;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2), 0 10px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.skill_box #two{
+    background-color:#1A2238;
+    width: 450px;
+    border-radius: 8px;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2), 0 10px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.skill_box #three{
+    background-color:#7DA2A9;
+    width: 600px;
+    border-radius: 8px;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2), 0 10px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.skill_box #four{
+    background-color:#1A2238;
+    width: 490px;
+    border-radius: 8px;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2), 0 10px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.skill_box #five{
+    background-color:#7DA2A9;
+    width: 570px;
+    border-radius: 8px;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2), 0 10px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.skill_box #six{
+    background-color:#1A2238;
+    width: 700px;
+    border-radius: 8px;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2), 0 10px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.skill_box #seven{
+    background-color:#7DA2A9;
+    width: 670px;
+    border-radius: 8px;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2), 0 10px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.skill_box #eight{
+    background-color:#1A2238;
+    width: 520px;
+    border-radius: 8px;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2), 0 10px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.skill_box #nice{
+    background-color:#7DA2A9;
+    width: 470px;
+    border-radius: 8px;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2), 0 10px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+/* .skill_box #one:hover,
+.skill_box #three:hover,
+.skill_box #five:hover,
+.skill_box #seven:hover,
+.skill_box #nice:hover{
+    background-color:#1A2238;
+}
+.skill_box #one p:hover,
+.skill_box #three p:hover,
+.skill_box #five p:hover,
+.skill_box #seven p:hover,
+.skill_box #nice p:hover{
+    color:#7DA2A9;
+}
+
+.skill_box #two:hover,
+.skill_box #four:hover,
+.skill_box #six:hover,
+.skill_box #eight:hover{
+    background-color:#7DA2A9;
+}
+.skill_box #two p:hover,
+.skill_box #four p:hover,
+.skill_box #six p:hover,
+.skill_box #eight p:hover{
+    color:1A2238;
+} */
+
+/* contact section */
+.contact {
+    height: 200px;
+    text-align: center;
+}
+
+.contact h1{
+    border-bottom: 2px solid #1A2238;
+    margin:10px 40px;
+    padding: 20px;
+    font-size: 30px;
+}
+
+.click img{
+    width: 60px;
+    height: auto;
+    padding: 10px;
+}
+
+
+
+footer{
+    background-color: #1A2238;
+    height: 20px;
+    padding: 13px;
+}
+
+/* Responsive page section */
+
+@media only screen and (max-width: 900px) {
+    nav a {
+        padding: 16px 0;
+        font-size: 18px;
+    }
+
+    header h1{
+        font-size: 60px;
+    }
+
+    .typewriter h2 {
+        font-size: 26px;
+    }
+
+    .about_text{
+        width: 450px;
+        margin-left: 50px;
+        margin-top: 20px;
+    }
+    
+    .about_text h2{
+        font-size: 30px;
+    }
+
+    .about_text h3{
+        font-size: 22px;
+    }
+
+    .computer{
+        height: 230px;
+        width: auto;
+        left: 25%;
+        top: 168%;
+    }
+    .code{
+        height: 120px;
+        width: auto;
+        left: 55%;
+        top: 188%;
+    }
+
+    .proj_text_box #app_img{
+        width:  480px;
+        height: auto;
+    }
+
+
+
+    /* skill section */
+    .skill_box #one{
+        width: 250px;
+    }
+    .skill_box #two{
+        width: 350px;
+    }
+    .skill_box #three{
+        width: 500px;
+    }
+    .skill_box #four{
+        width: 390px;
+    }
+    .skill_box #five{
+        width: 470px;
+    }
+    .skill_box #six{
+        width: 500px;
+    }
+    .skill_box #seven{
+        width: 370px;
+    }
+    .skill_box #eight{
+        width: 420px;
+    }
+    .skill_box #nice{
+        width: 290px;
+    }
+
+    .about{
+        height: 110vh;
+    }
+
+
+
+
+  }

@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <link rel="stylesheet" type="text/css" href="styles/style.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
 
 <body>
@@ -16,9 +16,9 @@
       <!-- space only -->
     </div>
     <div class="typewriter">
-      <!-- <img src="images/ryan.jpg"> -->
+      <img src="images/ryan.jpg">
       <h1>Ryan Xiao</h1>
-      <h2>Software Developer</h2>
+      <h2>Software Development Student</h2>
     </div>
 
     <div class="round">
@@ -34,38 +34,165 @@
 
   <nav>
     <a href="#about">About</a>
-    <a href="#projects">Projects</a>
     <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
     <a href="#contact">Contact</a>
   </nav>
 
   <main>
-    <section id="about">
+    <section id="about" class="about">
       <article class="header">
-        <h1>About me....</h1>
+        <!-- <h1>About me -- display for now</h1> -->
       </article>
-      <p>Some text about me. Some text about me. I am lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor
-        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-        laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
-        esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-        officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-        aliquip ex ea commodo consequat.</p>
+      <div>
+        <div class="about_text">
+          <h2>Software Development Student</h2>
+          <h3>from Sydney, Australia</h3>
+          <p>Hi, I'm Ryan. I am currently a software development and programming student. During my study, I have
+            learned <a href="#skills" style="font-weight: bold; font: size 20px;">fundamental programming skills</a>.
+          </p>
+          <p>Building user-friendly websites, developing applications and back end architecture are truly a passion of
+            mine. I'm looking to pursue a
+            challenging tech role with career opportunities.</p>
+          <p>Want to see some examples? <a href="#projects" style="font-weight: bold; font: size 20px;">Scroll down</a>.
+          </p>
+        </div>
+        <img src="images/computer.svg" alt="computer" class="computer">
+        <img src="images/code.svg" alt="code" class="code">
+      </div>
+
+
+
+
+
     </section>
 
-    <section id="projects" class="yellow">
-      <projects>
+    <section id="skills" class="skills">
+      <article class="header">
+        <!-- <h1>Skills</h1> -->
+      </article>
+      <div>
+        <h2>What can I do?</h2>
+      </div>
+      <div class="skill_box">
+        <div id="one">
+          <p>HTML5</p>
+        </div>
+        <div id="two">
+          <p>CSS3</p>
+        </div>
+        <div id="three">
+          <p>Fundamental JavaScript</p>
+        </div>
+        <div id="four">
+          <p>Command line | Git | GitHub</p>
+        </div>
+        <div id="five">
+          <p>Structured Query Language | Database</p>
+        </div>
+        <div id="six">
+          <p>Android Apps | Fundamental Kotlin</p>
+        </div>
+        <div id="seven">
+          <p>Object-oriented design knowledge</p>
+        </div>
+        <div id="eight">
+          <p>Fundamental C# |Java</p>
+        </div>
+        <div id="nice">
+          <p>Problem Solving | Team Work</p>
+        </div>
 
-      </projects>
-    </section>
 
-    <section id="skills" class="purple">
+      </div>
+
+
       <skills>
 
       </skills>
     </section>
 
-    <section id="contact" class="dark">
+    <section id="projects" class="projects">
+      <article class="header">
+        <!-- <h1>Projects -- display for now</h1> -->
+      </article>
+      <div class="proj_data">
+        <div class="proj_text_box">
+          <h2>Spend Tracker Android App</h2>
+          <h3>Languages & Tools: Kotlin, SQLite, Android Studio</h3>
+          <p>This simple project is to create a Mobile App to work on Android device. It used SQLite database with
+            DataHelper class for disconnected coneection database access to read, delete and edit data to local databse
+            on the device. Build user-friendly interface, datapicker functions. It also allows user to set their budget
+            and tracker daily expensive. This proejct is part of scholl assessment, however its very basic, but more
+            feature will be added.</p>
+          <div class="launch">
+            <a href="#"><img src="images/code_icon.svg"></a>
+            <a></a>
+          </div>
+          <img id="app_img" src="/images/phone_app.svg">
+        </div>
+        <div class="proj_text_box">
+          <h2>Title here</h2>
+          <h3>Languages & Tools: example</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+            dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+            deserunt mollit anim id est laborum..</p>
+          <div class="launch">
+            <a href="#"><img src="images/code_icon.svg"></a>
+            <a></a>
+          </div>
+          <img id="app_img" src="">
+        </div>
+
+
+
+
+      </div>
+
+
+
+
+      <!-- <div id="box">
+          <h2>Weather App | inforamtion</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+            ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+            nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
+            anim id est laborum..</p>
+          <p>Languages & Tools: HTML, CSS, SASS, JavaScript, React, Hooks, Context</p>
+          <div id="pro_img">
+            <img>
+          </div>
+          <div id="launch">
+            <div id="launch">
+              <a></a>
+              <a></a>
+            </div>
+          </div>
+        
+      </div> -->
+
+
+
+    </section>
+
+
+
+    <section id="contact">
+      <article class="header">
+        <!-- <h1>Contact</h1> -->
+      </article>
+
+      <div class="contact">
+        <h1>Get in touch</h1>
+        <div class="click">
+          <a href=""><img src="/images/mail_icon.svg"></a>
+          <a href=""><img src="images/github_icon.svg"></a>
+        </div>
+      </div>
+
       <contact>
 
       </contact>
@@ -91,30 +218,30 @@
 </body>
 
 <script>
-  $(document).ready(function(){
+  $(document).ready(function () {
     // Add smooth scrolling to all links
-    $("a").on('click', function(event) {
-  
+    $("a").on('click', function (event) {
+
       // Make sure this.hash has a value before overriding default behavior
       if (this.hash !== "") {
         // Prevent default anchor click behavior
         event.preventDefault();
-  
+
         // Store hash
         var hash = this.hash;
-  
+
         // Using jQuery's animate() method to add smooth page scroll
         // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
         $('html, body').animate({
           scrollTop: $(hash).offset().top
-        }, 800, function(){
-     
+        }, 800, function () {
+
           // Add hash (#) to URL when done scrolling (default click behavior)
           window.location.hash = hash;
         });
       } // End if
     });
   });
-  </script>
+</script>
 
 </html>
