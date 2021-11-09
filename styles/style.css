@@ -213,7 +213,6 @@ section .header h1{
     font-size: 18px;
     margin-bottom: 20px;
     line-height: 1.4;
-    
 }
 
 .computer{
@@ -231,44 +230,6 @@ section .header h1{
     left: 82%;
     top: 160%;
 }
-
-
-/* #database{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-}
-
-h2{
-    font-size: 20px;
-}
-
-#box{
-    width:350px;
-    padding:20px;
-    margin: 20px;
-    height: 300px;
-}
-
-#database #box #divt{
-    display: none;
-}
-
-#database #box:hover{
-    background-color: #e7e4e4;
-    opacity: 0.8;
-}
-
-#database #box:hover p{
-    display: none;
-}
-
-#database #box:hover #divt{
-    display: block;
-} */
-
-
-
 
 /* projects section */
 
@@ -300,6 +261,7 @@ h2{
   
 #app_img:hover {
     opacity: 0.9;
+    border-bottom: 1px solid #1A2238;
 }
   
 
@@ -327,7 +289,6 @@ h2{
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-weight: bold;
     }
 
 .skill_box p{
@@ -397,34 +358,20 @@ h2{
     box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2), 0 10px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-
-/* .skill_box #one:hover,
-.skill_box #three:hover,
-.skill_box #five:hover,
-.skill_box #seven:hover,
-.skill_box #nice:hover{
-    background-color:#1A2238;
-}
 .skill_box #one p:hover,
 .skill_box #three p:hover,
 .skill_box #five p:hover,
 .skill_box #seven p:hover,
 .skill_box #nice p:hover{
-    color:#7DA2A9;
+    font-weight: bolder;
 }
 
-.skill_box #two:hover,
-.skill_box #four:hover,
-.skill_box #six:hover,
-.skill_box #eight:hover{
-    background-color:#7DA2A9;
-}
 .skill_box #two p:hover,
 .skill_box #four p:hover,
 .skill_box #six p:hover,
 .skill_box #eight p:hover{
-    color:1A2238;
-} */
+    font-weight: bolder;
+}
 
 /* contact section */
 .contact {
@@ -444,7 +391,6 @@ h2{
     height: auto;
     padding: 10px;
 }
-
 
 footer{
     background-color: #1A2238;
@@ -502,11 +448,9 @@ footer{
         height: auto;
     }
 
-
     .proj_data{
         margin: 5px 5px;
     }
-
 
     /* skill section */
     .skill_box #one{
@@ -531,7 +475,7 @@ footer{
         width: 340px;
     }
     .skill_box #eight{
-        width: 350px;
+        width: 220px;
     }
     .skill_box #nice{
         width: 290px;
@@ -545,8 +489,6 @@ footer{
         font-size: 15px;
     }
 
-
-
     .contact h1{
         font-size: 24px;
     }
@@ -554,7 +496,5 @@ footer{
     .click img{
         width: 40px;
     }
-
-
 
   }
