@@ -373,6 +373,45 @@ section .header h1{
     font-weight: bolder;
 }
 
+
+    /* Slideshow container */
+    .slideshow-container {
+        width: 650px;
+        position: relative;
+      }
+      
+      /* Next & previous buttons */
+      .prev,
+      .next {
+        cursor: pointer;
+        background-color:transparent;
+        position: absolute;
+        top: 50%;
+        width: auto;
+        padding: 6px;
+        margin-right: 16px;
+        margin-left: 16px;
+        margin-top: -22px;
+        color: #1A2238;
+        font-weight: bold;
+        font-size: 18px;
+        transition: 0.6s ease;
+        border-radius: 3px 3px 3px 3px;
+        user-select: none;
+      }
+      /* Position the "next button" to the right */
+      .next {
+        right: 0;
+      }
+      /* On hover, add a black background color with a little bit see-through */
+      .prev:hover,
+      .next:hover {
+        background-color: rgba(0, 0, 0, 0.8);
+      }
+
+
+
+
 /* contact section */
 .contact {
     height: 200px;

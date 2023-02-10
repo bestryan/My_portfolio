@@ -118,6 +118,7 @@
         <!-- <h1>Projects -- display for now</h1> -->
       </article>
       <div class="proj_data">
+        
         <div class="proj_text_box">
           <h2>Spend tracker Android App</h2>
           <h3>Languages & Tools: Kotlin, SQLite, Android Studio</h3>
@@ -132,6 +133,31 @@
           </div>
           <img id="app_img" src="images/phone_app.jpg">
         </div>
+
+        <div class="proj_text_box">
+          <h2>Squid Game Staff Management System - Integrate Database with Web</h2>
+          <h3>Languages & Tools: PHP, MySQL, HTML, CSS & MAMP (local server environment)</h3>
+          
+          <p>This simple Mastermind number guess game build with Java.
+            The computer will think of 4 secret numbers.
+            You try to guess what numbers are in the code and what order they are in.
+            After making a guess the result will be displayed.
+            Every time you make a guess you get feedback.
+          </p>
+          <div class="launch">
+            <a href="https://github.com/bestryan/Mastermind" target="_blank"><img src="images/code_icon.svg"></a>
+            <a></a>
+          </div>
+
+          <div class="slideshow-container">
+            <img class="mySlides" id="app_img" src="images/Squid_proj.png">
+            <img class="mySlides" id="app_img" src="images/Squid_proj1.png">
+            <a class="prev" onclick="plusSlides(-1)">◀︎</a>
+            <a class="next" onclick="plusSlides(1)">►</a>
+          </div>
+
+        </div>
+
         <div class="proj_text_box">
           <h2>Create and style simple mark-up language</h2>
           <h3>Languages & Tools: HTML, CSS, VS Code</h3>
@@ -143,6 +169,7 @@
           </div>
           <img id="app_img" src="images/web_proj.png">
         </div>
+
         <div class="proj_text_box">
           <h2>Java code challenge - read weather data, export csv file & arraylist manipulate</h2>
           <h3>Languages & Tools: Java & IDE</h3>
@@ -249,6 +276,33 @@
       } // End if
     });
   });
+
+  let slideIndex = 1;
+        showSlides(slideIndex);
+    
+        function plusSlides(n) {
+          showSlides(slideIndex += n);
+        }
+    
+        function currentSlide(n) {
+          showSlides(slideIndex === n);
+        }
+    
+        function showSlides(n) {
+          let i;
+          let slides = document.getElementsByClassName("mySlides");
+          if (n > slides.length) {
+            slideIndex = 1
+          }
+          if (n < 1) {
+            slideIndex = slides.length
+          }
+          for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+          }
+          if (slideIndex > slides.length) {slideIndex = 1} 
+          slides[slideIndex - 1].style.display = "block";
+        }
 </script>
 
 </html>
