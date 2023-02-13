@@ -542,3 +542,19 @@ footer{
       }
 
   }
+
+
+  @media only screen and (max-width: 375px) {
+
+.about,
+.skills{
+    background-image: url("../images/about_banner_m.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* border-bottom: 4px solid #7DA2A9; */
+    height: 110vh;
+}
+
+
+
+  }
