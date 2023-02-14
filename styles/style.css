@@ -1,28 +1,28 @@
-*{
+* {
     margin: 0;
     padding: 0;
     color: #1A2238;
-    font-family: "Barlow",sans-serif;
+    font-family: "Barlow", sans-serif;
 }
 
-body{
-font-family: Helvetica, Calibri, Arial, sans-serif;
+body {
+    font-family: Helvetica, Calibri, Arial, sans-serif;
 }
 
 /* Header section */
 
-header{
+header {
     height: 100vh;
-    background:#7DA2A9;
+    background: #7DA2A9;
     align-items: center;
     flex-direction: column;
     display: flex;
-    justify-content:space-evenly;
+    justify-content: space-evenly;
     text-align: center;
-    color:#1A2238;
+    color: #1A2238;
 }
 
-header img{
+header img {
     height: 12em;
     border-radius: 50%;
     width: 190px;
@@ -30,34 +30,51 @@ header img{
     box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2), 0 10px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-header h1{
+header h1 {
     font-size: 70px;
     margin: 0.25em;
 }
 
 .typewriter h2 {
-    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    overflow: hidden;
+    /* Ensures the content is not revealed until the animation */
     font-size: 30px;
-    border-right: .15em solid orange; /* The typwriter cursor */
-    white-space: nowrap; /* Keeps the content on a single line */
-    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-    letter-spacing: .15em; /* Adjust as needed */
-    animation: 
+    border-right: .15em solid orange;
+    /* The typwriter cursor */
+    white-space: nowrap;
+    /* Keeps the content on a single line */
+    margin: 0 auto;
+    /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em;
+    /* Adjust as needed */
+    animation:
         typing 3.5s steps(40, end),
         blink-caret .75s step-end infinite;
-  }
-  
-  /* The typing effect */
-  @keyframes typing {
-    from { width: 0 }
-    to { width: 100% }
-  }
-  
-  /* The typewriter cursor effect */
-  @keyframes blink-caret {
-    from, to { border-color: transparent }
-    50% { border-color: #1A2238; }
-  }
+}
+
+/* The typing effect */
+@keyframes typing {
+    from {
+        width: 0
+    }
+
+    to {
+        width: 100%
+    }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+
+    from,
+    to {
+        border-color: transparent
+    }
+
+    50% {
+        border-color: #1A2238;
+    }
+}
 
 .round {
     position: relative;
@@ -133,35 +150,35 @@ span:nth-child(4) {
 
 /* nav section */
 
-a{
-    text-decoration:none;
+a {
+    text-decoration: none;
 }
 
 nav a {
-    color:#F7F7F7;
+    color: #F7F7F7;
     font-size: 1.25em;
     font-weight: bold;
     padding: 18px 0;
 }
 
 nav {
-    display:flex;
-    justify-content:space-evenly;
-    z-index:2;
+    display: flex;
+    justify-content: space-evenly;
+    z-index: 2;
     position: sticky;
-    background-color:#1A2238;
-    top:0;
+    background-color: #1A2238;
+    top: 0;
     box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2), 0 10px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-a:hover{
+a:hover {
     color: #7DA2A9;
 }
 
 
 /* mian section */
 
-section{
+section {
     display: flex;
     flex-direction: column;
     /* border: 1px solid red; */
@@ -172,20 +189,20 @@ section{
 section .header {
     display: flex;
     font-size: 24px;
-    justify-content:center;
+    justify-content: center;
     align-items: flex-end;
     margin: 10px 15px 20px 15px;
     height: 5vh;
 }
 
-section .header h1{
+section .header h1 {
     color: #1A2238;
     margin-bottom: 10px;
 }
 
 /* about me section */
 
-.about{
+.about {
     background-image: url("../images/about_banner.svg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -193,29 +210,29 @@ section .header h1{
     height: 100vh;
 }
 
-.about_text{
+.about_text {
     width: 540px;
     margin-left: 80px;
     margin-top: 20px;
 }
 
-.about_text h2{
+.about_text h2 {
     font-size: 35px;
     margin-bottom: 30px
 }
 
-.about_text h3{
+.about_text h3 {
     font-size: 25px;
     margin-bottom: 35px
 }
 
-.about_text p{
+.about_text p {
     font-size: 18px;
     margin-bottom: 20px;
     line-height: 1.4;
 }
 
-.computer{
+.computer {
     height: 320px;
     width: auto;
     position: absolute;
@@ -223,7 +240,7 @@ section .header h1{
     top: 130%;
 }
 
-.code{
+.code {
     height: 140px;
     width: auto;
     position: absolute;
@@ -233,42 +250,84 @@ section .header h1{
 
 /* projects section */
 
-.proj_data{
+.proj_data {
     margin: 5px 40px;
 }
 
-.proj_text_box #app_img{
+.proj_text_box #app_img {
     max-width: 650px;
     height: auto;
 }
 
-.proj_text_box h2 ,h3 ,p{
+.proj_text_box h2,
+h3,
+p {
     margin-bottom: 20px;
     line-height: 1.4;
 }
 
-.proj_text_box #app_img{
+.proj_text_box #app_img {
     border-bottom: 1px solid #7DA2A9;
     margin-bottom: 20px;
     padding-bottom: 20px;
 }
 
-.launch img{
+.launch img {
     width: 35px;
     height: auto;
     padding: 0px 5px;
 }
-  
+
 #app_img:hover {
     opacity: 0.9;
     border-bottom: 1px solid #1A2238;
 }
-  
+
+
+
+/* Slideshow container */
+.slideshow-container {
+    width: 650px;
+    position: relative;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+    cursor: pointer;
+    background-color: transparent;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 6px;
+    margin-right: 16px;
+    margin-left: 16px;
+    margin-top: -22px;
+    color: #1A2238;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 3px 3px 3px 3px;
+    user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+    right: 0;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+
 
 
 /* Skill Section */
 
-.skills{
+.skills {
     background-image: url("../images/about_banner.svg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -276,83 +335,93 @@ section .header h1{
     height: 100vh;
 }
 
-.skills h2{
+.skills h2 {
     font-size: 28px;
-    margin-bottom:40px;
+    margin-bottom: 40px;
     text-align: center;
     padding: 20px;
 }
 
-.skill_box{
+.skill_box {
     text-align: center;
     justify-content: center;
     display: flex;
     flex-direction: column;
     align-items: center;
-    }
+}
 
-.skill_box p{
+.skill_box p {
     margin: 0;
     font-size: 18px;
     padding: 11px
 }
 
 
-.skill_box #two p, 
-#four p, #six p, #eight p{
+.skill_box #two p,
+#four p,
+#six p,
+#eight p {
     color: #F7F7F7;
 }
 
-.skill_box #one{
-    background-color:#7DA2A9;
+.skill_box #one {
+    background-color: #7DA2A9;
     width: 350px;
     border-radius: 8px;
     box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2), 0 10px 20px 0 rgba(0, 0, 0, 0.19);
 }
-.skill_box #two{
-    background-color:#1A2238;
+
+.skill_box #two {
+    background-color: #1A2238;
     width: 450px;
     border-radius: 8px;
     box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2), 0 10px 20px 0 rgba(0, 0, 0, 0.19);
 }
-.skill_box #three{
-    background-color:#7DA2A9;
+
+.skill_box #three {
+    background-color: #7DA2A9;
     width: 600px;
     border-radius: 8px;
     box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2), 0 10px 20px 0 rgba(0, 0, 0, 0.19);
 }
-.skill_box #four{
-    background-color:#1A2238;
+
+.skill_box #four {
+    background-color: #1A2238;
     width: 490px;
     border-radius: 8px;
     box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2), 0 10px 20px 0 rgba(0, 0, 0, 0.19);
 }
-.skill_box #five{
-    background-color:#7DA2A9;
+
+.skill_box #five {
+    background-color: #7DA2A9;
     width: 570px;
     border-radius: 8px;
     box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2), 0 10px 20px 0 rgba(0, 0, 0, 0.19);
 }
-.skill_box #six{
-    background-color:#1A2238;
+
+.skill_box #six {
+    background-color: #1A2238;
     width: 700px;
     border-radius: 8px;
     box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2), 0 10px 20px 0 rgba(0, 0, 0, 0.19);
 }
-.skill_box #seven{
-    background-color:#7DA2A9;
+
+.skill_box #seven {
+    background-color: #7DA2A9;
     width: 670px;
     border-radius: 8px;
     box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2), 0 10px 20px 0 rgba(0, 0, 0, 0.19);
 }
-.skill_box #eight{
-    background-color:#1A2238;
+
+.skill_box #eight {
+    background-color: #1A2238;
     width: 520px;
     border-radius: 8px;
     box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2), 0 10px 20px 0 rgba(0, 0, 0, 0.19);
 }
-.skill_box #nice{
-    background-color:#7DA2A9;
+
+.skill_box #nice {
+    background-color: #7DA2A9;
     width: 470px;
     border-radius: 8px;
     box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2), 0 10px 20px 0 rgba(0, 0, 0, 0.19);
@@ -362,54 +431,16 @@ section .header h1{
 .skill_box #three p:hover,
 .skill_box #five p:hover,
 .skill_box #seven p:hover,
-.skill_box #nice p:hover{
+.skill_box #nice p:hover {
     font-weight: bolder;
 }
 
 .skill_box #two p:hover,
 .skill_box #four p:hover,
 .skill_box #six p:hover,
-.skill_box #eight p:hover{
+.skill_box #eight p:hover {
     font-weight: bolder;
 }
-
-
-    /* Slideshow container */
-    .slideshow-container {
-        width: 650px;
-        position: relative;
-      }
-      
-      /* Next & previous buttons */
-      .prev,
-      .next {
-        cursor: pointer;
-        background-color:transparent;
-        position: absolute;
-        top: 50%;
-        width: auto;
-        padding: 6px;
-        margin-right: 16px;
-        margin-left: 16px;
-        margin-top: -22px;
-        color: #1A2238;
-        font-weight: bold;
-        font-size: 18px;
-        transition: 0.6s ease;
-        border-radius: 3px 3px 3px 3px;
-        user-select: none;
-      }
-      /* Position the "next button" to the right */
-      .next {
-        right: 0;
-      }
-      /* On hover, add a black background color with a little bit see-through */
-      .prev:hover,
-      .next:hover {
-        background-color: rgba(0, 0, 0, 0.8);
-      }
-
-
 
 
 /* contact section */
@@ -418,20 +449,20 @@ section .header h1{
     text-align: center;
 }
 
-.contact h1{
+.contact h1 {
     border-bottom: 2px solid #1A2238;
-    margin:10px 40px;
+    margin: 10px 40px;
     padding: 20px;
     font-size: 30px;
 }
 
-.click img{
+.click img {
     width: 60px;
     height: auto;
     padding: 10px;
 }
 
-footer{
+footer {
     background-color: #1A2238;
     height: 20px;
     padding: 14px;
@@ -445,7 +476,7 @@ footer{
         font-size: 18px;
     }
 
-    header h1{
+    header h1 {
         font-size: 55px;
     }
 
@@ -453,108 +484,117 @@ footer{
         font-size: 18px;
     }
 
-    .about{
+    .about {
         height: 95vh;
     }
 
-    .about_text{
+    .about_text {
         width: auto;
         margin-left: 20px;
         margin-top: 20px;
     }
-    
-    .about_text h2{
+
+    .about_text h2 {
         font-size: 28px;
     }
 
-    .about_text h3{
+    .about_text h3 {
         font-size: 20px;
     }
 
-    .about_text p{
+    .about_text p {
         font-size: 18px;
     }
 
-    .computer{
-        display: none;
-    }
-    .code{
+    .computer {
         display: none;
     }
 
-    .proj_text_box #app_img{
+    .code {
+        display: none;
+    }
+
+    .proj_text_box #app_img {
         max-width: 100%;
         height: auto;
     }
 
-    .proj_data{
+    .proj_data {
         margin: 5px 5px;
     }
 
     /* skill section */
-    .skill_box #one{
+    .skill_box #one {
         width: 100px;
     }
-    .skill_box #two{
+
+    .skill_box #two {
         width: 120px;
     }
-    .skill_box #three{
+
+    .skill_box #three {
         width: 250px;
     }
-    .skill_box #four{
-        width: 290px;
-    }
-    .skill_box #five{
-        width: 320px;
-    }
-    .skill_box #six{
-        width: 300px;
-    }
-    .skill_box #seven{
-        width: 340px;
-    }
-    .skill_box #eight{
-        width: 220px;
-    }
-    .skill_box #nice{
+
+    .skill_box #four {
         width: 290px;
     }
 
-    .skills h2{
+    .skill_box #five {
+        width: 320px;
+    }
+
+    .skill_box #six {
+        width: 300px;
+    }
+
+    .skill_box #seven {
+        width: 340px;
+    }
+
+    .skill_box #eight {
+        width: 220px;
+    }
+
+    .skill_box #nice {
+        width: 290px;
+    }
+
+    .skills h2 {
         font-size: 22px;
     }
 
-    .skill_box p{
+    .skill_box p {
         font-size: 15px;
     }
 
-    .contact h1{
+    .contact h1 {
         font-size: 24px;
     }
-    
-    .click img{
+
+    .click img {
         width: 40px;
     }
 
     .slideshow-container {
         width: auto;
         position: relative;
-      }
+    }
 
-  }
-
-
-  @media only screen and (max-width: 375px) {
-
-.about,
-.skills{
-    background-image: url("../images/about_banner_m.svg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    /* border-bottom: 4px solid #7DA2A9; */
-    height: 110vh;
 }
 
 
+@media only screen and (max-width: 375px) {
 
-  }
+    .about,
+    .skills {
+        background-image: url("../images/about_banner_m.svg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        /* border-bottom: 4px solid #7DA2A9; */
+        height: 110vh;
+    }
+
+
+
+}
