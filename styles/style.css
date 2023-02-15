@@ -322,6 +322,20 @@ p {
     background-color: rgba(0, 0, 0, 0.8);
 }
 
+video{
+    width: 650px;
+    margin: 15px 15px 40px 15px;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.4), 0 10px 20px 0 rgba(0, 0, 0, 0.4);
+    border-radius: 8px;
+}
+
+#line{
+    width: 680px;
+    height: 1px;
+    background: #7DA2A9;
+    margin-bottom: 30px;
+}
+
 
 
 
@@ -521,6 +535,17 @@ footer {
 
     .proj_data {
         margin: 5px 5px;
+    }
+
+    video{
+        max-width: 100%;
+        margin: 15px 0px;
+    }
+
+    #line{
+        max-width: 100%;
+        margin-top: 20px;
+
     }
 
     /* skill section */
