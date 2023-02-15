@@ -327,6 +327,7 @@ video{
     margin: 15px 15px 40px 15px;
     box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.4), 0 10px 20px 0 rgba(0, 0, 0, 0.4);
     border-radius: 8px;
+    display: block;
 }
 
 #line{
@@ -539,6 +540,7 @@ footer {
 
     video{
         max-width: 100%;
+        height: auto;
         margin: 15px 0px;
     }
 
