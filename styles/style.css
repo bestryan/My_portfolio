@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    color: #1A2238;
+    color: #030e12;
     font-family: "Barlow", sans-serif;
 }
 
@@ -13,13 +13,13 @@ body {
 
 header {
     height: 100vh;
-    background: #7DA2A9;
+    background: #fcde67;
     align-items: center;
     flex-direction: column;
     display: flex;
     justify-content: space-evenly;
     text-align: center;
-    color: #1A2238;
+    color: #030e12;
 }
 
 header img {
@@ -39,13 +39,13 @@ header h1 {
     overflow: hidden;
     /* Ensures the content is not revealed until the animation */
     font-size: 30px;
-    border-right: .15em solid orange;
+    border-right: .15em solid ;
     /* The typwriter cursor */
     white-space: nowrap;
     /* Keeps the content on a single line */
     margin: 0 auto;
     /* Gives that scrolling effect as the typing happens */
-    letter-spacing: .15em;
+    letter-spacing: .19em;
     /* Adjust as needed */
     animation:
         typing 3.5s steps(40, end),
@@ -65,14 +65,13 @@ header h1 {
 
 /* The typewriter cursor effect */
 @keyframes blink-caret {
-
     from,
     to {
         border-color: transparent
     }
 
     50% {
-        border-color: #1A2238;
+        border-color: #030e12;
     }
 }
 
@@ -93,9 +92,9 @@ header h1 {
 
 span {
     z-index: 999;
-    height: 3px;
-    width: 16px;
-    background: #1A2238;
+    height: 4px;
+    width: 18px;
+    background: #01bbff;
     transition: 0.4s ease;
 }
 
@@ -496,7 +495,7 @@ footer {
     }
 
     .typewriter h2 {
-        font-size: 18px;
+        font-size: 20px;
     }
 
     .about {
@@ -552,11 +551,11 @@ footer {
 
     /* skill section */
     .skill_box #one {
-        width: 100px;
+        width: 150px;
     }
 
     .skill_box #two {
-        width: 120px;
+        width:280px;
     }
 
     .skill_box #three {
