@@ -21,7 +21,6 @@ header {
     justify-content: space-evenly;
     text-align: center;
     color: #030e12;
-
 }
 
 header img {
@@ -52,7 +51,7 @@ header img {
     background-size: cover;
     width: 240px;
     height: 240px;
-    box-shadow: inset 0 0 0 2px black;
+    box-shadow: inset 0 0 0 1px black;
 }
 
 
