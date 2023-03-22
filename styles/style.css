@@ -14,7 +14,8 @@ body {
 header {
     height: 100vh;
     /* background: #fcde67; */
-    background: #F7F7F7;;
+    background: #F7F7F7;
+    ;
     align-items: center;
     flex-direction: column;
     display: flex;
@@ -35,9 +36,11 @@ header img {
     0% {
         border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
     }
+
     50% {
         border-radius: 30% 60% 70% 40%/50% 60% 30% 60%;
     }
+
     100% {
         border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
     }
@@ -55,7 +58,7 @@ header img {
 }
 
 
-.img_con{
+.img_con {
     display: flex;
     justify-content: center;
 }
@@ -69,7 +72,7 @@ header h1 {
     overflow: hidden;
     /* Ensures the content is not revealed until the animation */
     font-size: 30px;
-    border-right: .10em solid ;
+    border-right: .10em solid;
     /* The typwriter cursor */
     white-space: nowrap;
     /* Keeps the content on a single line */
@@ -95,6 +98,7 @@ header h1 {
 
 /* The typewriter cursor effect */
 @keyframes blink-caret {
+
     from,
     to {
         border-color: transparent
@@ -351,7 +355,7 @@ p {
     background-color: rgba(0, 0, 0, 0.8);
 }
 
-video{
+video {
     width: 650px;
     margin: 15px 15px 40px 15px;
     box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.4), 0 10px 20px 0 rgba(0, 0, 0, 0.4);
@@ -359,7 +363,7 @@ video{
     display: block;
 }
 
-#line{
+#line {
     width: 680px;
     height: 1px;
     background: #7DA2A9;
@@ -464,7 +468,7 @@ video{
     box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2), 0 10px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.skill_box #nice {
+.skill_box #nine {
     background-color: #7DA2A9;
     width: 470px;
     border-radius: 8px;
@@ -475,7 +479,7 @@ video{
 .skill_box #three p:hover,
 .skill_box #five p:hover,
 .skill_box #seven p:hover,
-.skill_box #nice p:hover {
+.skill_box #nine p:hover {
     font-weight: bolder;
 }
 
@@ -567,16 +571,15 @@ footer {
         margin: 5px 5px;
     }
 
-    video{
+    video {
         max-width: 100%;
         height: auto;
         margin: 15px 0px;
     }
 
-    #line{
+    #line {
         max-width: 100%;
         margin-top: 40px;
-
     }
 
     /* skill section */
@@ -585,7 +588,7 @@ footer {
     }
 
     .skill_box #two {
-        width:280px;
+        width: 280px;
     }
 
     .skill_box #three {
@@ -612,7 +615,7 @@ footer {
         width: 220px;
     }
 
-    .skill_box #nice {
+    .skill_box #nine {
         width: 290px;
     }
 
@@ -641,17 +644,123 @@ footer {
 
 
 @media only screen and (max-width: 375px) {
+    .home_img {
+        width: 180px;
+        height: 180px;
+    }
+    
+    nav a {
+        padding: 15px 0;
+        font-size: 16px;
+    }
+
+    header h1 {
+        font-size: 40px;
+    }
 
     .about,
     .skills {
-        background-image: url("../images/about_banner_m.svg");
+        /* background-image: url("../images/about_banner_m.svg"); */
+        background-image: none;
         background-repeat: no-repeat;
         background-size: cover;
         /* border-bottom: 4px solid #7DA2A9; */
-        height: 110vh;
+        height: 120vh;
     }
 
     .typewriter h2 {
         font-size: 22px;
     }
+
+    .about_text {
+        height: 120%;
+        width: 90%;
+    }
+
+    .about_text h2 {
+        font-size: 25px;
+        margin-bottom: 20px
+    }
+    
+    .about_text h3 {
+        font-size: 18px;
+        margin-bottom: 35px
+    }
+    
+    .about_text p {
+        font-size: 16px;
+    }
+
+    .proj_text_box h2{
+        font-size: 21px;
+    }
+    .proj_text_box h3{
+        font-size: 16px;
+    }
+    .proj_text_box p{
+        font-size: 14px;
+    }
+    .launch img {
+        width: 25px;
+        padding: 0px 2px;
+    }
+
+    /* skill section */
+    .skill_box #one {
+        width: 120px;
+    }
+
+    .skill_box #two {
+        width: 220px;
+    }
+
+    .skill_box #three {
+        width: 230px;
+    }
+
+    .skill_box #four {
+        width: 200px;
+    }
+
+    .skill_box #five {
+        width: 250px;
+    }
+
+    .skill_box #six {
+        width: 230px;
+    }
+
+    .skill_box #seven {
+        width: 230px;
+    }
+
+    .skill_box #eight {
+        width: 170px;
+    }
+
+    .skill_box #nine {
+        width: 200px;
+    }
+
+    .skills h2 {
+        font-size: 22px;
+    }
+
+    .skill_box p {
+        font-size: 13px;
+    }
+
+    .contact h1 {
+        font-size: 20px;
+        margin: 10px 10px;
+        padding: 10px;
+    }
+    .click img {
+        width: 30px;
+        padding: 10px;
+    }
+    .contact{
+        height: 120px;
+    }
+
 }
