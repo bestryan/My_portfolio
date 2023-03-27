@@ -48,7 +48,7 @@ header img {
 
 .home_img {
     animation: img_move 5s ease-in-out infinite;
-    background-image: url(../images/ryan.png);
+    background-image: url("../images/ryan.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -499,7 +499,7 @@ video {
 
 .contact h1 {
     border-bottom: 2px solid #1A2238;
-    margin: 10px 40px;
+    margin: 10px 120px;
     padding: 20px;
     font-size: 30px;
 }
@@ -517,6 +517,26 @@ footer {
 }
 
 /* Responsive page section */
+@media only screen and (max-width: 1034px){
+    .computer {
+        height: 300px;
+        width: auto;
+        position: absolute;
+        left: 55%;
+        top: 155%;
+    }
+    
+    .code {
+        height: 120px;
+        width: auto;
+        position: absolute;
+        left: 78%;
+        top: 180%;
+    }
+}
+
+
+
 
 @media only screen and (max-width: 800px) {
     nav a {
@@ -588,7 +608,7 @@ footer {
     }
 
     .skill_box #two {
-        width: 280px;
+        width: 180px;
     }
 
     .skill_box #three {
@@ -629,6 +649,7 @@ footer {
 
     .contact h1 {
         font-size: 24px;
+        margin: 10px 80px;
     }
 
     .click img {
@@ -711,7 +732,7 @@ footer {
     }
 
     .skill_box #two {
-        width: 220px;
+        width: 150px;
     }
 
     .skill_box #three {
@@ -752,7 +773,7 @@ footer {
 
     .contact h1 {
         font-size: 20px;
-        margin: 10px 10px;
+        margin: 10px 40px;
         padding: 10px;
     }
     .click img {
