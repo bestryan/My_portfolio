@@ -305,10 +305,19 @@ p {
     padding-bottom: 20px;
 }
 
+.launch {
+    display: flex;
+    align-items: center;
+}
+
+.demo {
+    padding-left: 18px;
+}
+
 .launch img {
-    width: 35px;
+    width: 34px;
     height: auto;
-    padding: 0px 5px;
+    padding: 0px 4px;
 }
 
 #app_img:hover {
@@ -517,7 +526,7 @@ footer {
 }
 
 /* Responsive page section */
-@media only screen and (max-width: 1034px){
+@media only screen and (max-width: 1034px) {
     .computer {
         height: 300px;
         width: auto;
@@ -525,7 +534,7 @@ footer {
         left: 55%;
         top: 155%;
     }
-    
+
     .code {
         height: 120px;
         width: auto;
@@ -661,6 +670,18 @@ footer {
         position: relative;
     }
 
+    .launch h4 {
+        font-size: 15px;
+    }
+
+    .launch {
+        margin-top: -8px;
+    }
+
+    .launch img {
+        width: 30px;
+    }
+
 }
 
 
@@ -669,7 +690,7 @@ footer {
         width: 180px;
         height: 180px;
     }
-    
+
     nav a {
         padding: 15px 0;
         font-size: 16px;
@@ -702,25 +723,28 @@ footer {
         font-size: 25px;
         margin-bottom: 20px
     }
-    
+
     .about_text h3 {
         font-size: 18px;
         margin-bottom: 35px
     }
-    
+
     .about_text p {
         font-size: 16px;
     }
 
-    .proj_text_box h2{
+    .proj_text_box h2 {
         font-size: 21px;
     }
-    .proj_text_box h3{
+
+    .proj_text_box h3 {
         font-size: 16px;
     }
-    .proj_text_box p{
+
+    .proj_text_box p {
         font-size: 14px;
     }
+
     .launch img {
         width: 25px;
         padding: 0px 2px;
@@ -776,12 +800,27 @@ footer {
         margin: 10px 40px;
         padding: 10px;
     }
+
     .click img {
         width: 30px;
         padding: 10px;
     }
-    .contact{
+
+    .contact {
         height: 120px;
     }
+
+    .launch h4 {
+        font-size: 14px;
+    }
+
+    .launch {
+        margin-top: -10px;
+    }
+
+    .launch img {
+        width: 28px;
+    }
+
 
 }
