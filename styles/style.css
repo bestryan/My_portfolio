@@ -204,6 +204,14 @@ nav {
     box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2), 0 10px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+.nav-adj{
+    height: 59px;
+}
+
+.nav-adj a{
+    padding: 15px 0;
+}
+
 a:hover {
     color: #7DA2A9;
 }
@@ -565,11 +573,15 @@ footer {
 }
 
 @media only screen and (max-width: 800px) {
+    
     nav a {
-        padding: 16px 0;
         font-size: 18px;
     }
 
+    .nav-adj{
+        height: 57px;
+    }
+    
     header h1 {
         font-size: 55px;
     }
@@ -709,8 +721,7 @@ footer {
     }
 
     nav a {
-        padding: 15px 0;
-        font-size: 16px;
+        font-size: 17px;
     }
 
     header h1 {
