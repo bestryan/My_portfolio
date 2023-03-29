@@ -11,7 +11,7 @@ const showInHtml = projects.map((project) => {
             <div class="launch">
                 <a href=${project.code} target="_blank"><h4 class="font-semibold">Code</h4></a>
                 <a href=${project.code} target="_blank"><img src="/images/code_icon.svg"></a>
-                ${project.demo.length > 0 ? '<a href=${project.demo} target="_blank"><h4 class="demo font-semibold">Live Demo</h4></a> <a href=${project.demo} target="_blank"><img src="/images/launch_icon.svg"></a>' : '<p></p>'}
+                ${project.demo.length > 0 ? ('<a href='+project.demo+' target="_blank"><h4 class="demo font-semibold">Live Demo</h4></a> <a href='+project.demo+ ' target="_blank"><img src="/images/launch_icon.svg"></a>') : '<p></p>'}
             </div>
             <img class="py-4" src=${project.photo} alt="img"/>
         </div>
