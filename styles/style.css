@@ -538,10 +538,11 @@ footer {
     color: #030e12;
     border: 1px solid #555555;
     width: 130px;
-    margin-left: 22px;
+    margin-left: 20px;
     padding: 12px;
     font-size: 16px;
     text-align: center;
+    border-radius: 8px;
 }
 
 .oprj:hover{
