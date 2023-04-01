@@ -10,12 +10,12 @@ export const projects = [
     },
     {
         id: 2,
-        title: "Develop a personal task list",
-        tools: "Languages & Tools: React, JavaScript & CSS",
-        description: "This small application was developed in React with state & effect hooks. It allows users to add, edit, and delete tasks. Additionally, it allowed the user to mark off completed tasks. Users got a better experience with modern user interfaces and local storage. This is an upgraded version of the previous simple to-do list react app.",
-        code: "https://github.com/bestryan/React_multi_projects/tree/main/task-app",
-        demo: "https://ryan-xiao-task.netlify.app",
-        photo: "/projects/images/task.png"
+        title: "Simple to-do-list React App",
+        tools: "Languages & Tools: React, JavaScript, HTML, CSS",
+        description: "This project is developed through React library, practising React functional components or hooks instead of the component class. useState() useEffect() were used in this project and allowed users to save their data in local storage. This simple to-do list app has been styled for better UX. It will enable the user to enter a new task title, and optional notes are given for task details, removing the lists and showing the date & time after adding to the lists.",
+        code: "https://github.com/bestryan/Simple_to_do_list",
+        demo: "https://bestryan.github.io/Simple_to_do_list/",
+        photo: "/projects/images/to_do_list.png"
     },
     {
         id: 3,
