@@ -38,7 +38,7 @@ header img {
     }
 
     50% {
-        border-radius: 30% 60% 70% 40%/50% 60% 30% 60%;
+        border-radius: 40% 60% 60% 40%/40% 50% 30% 50%;
     }
 
     100% {
@@ -48,12 +48,12 @@ header img {
 
 .home_img {
     animation: img_move 5s ease-in-out infinite;
-    background-image: url("../images/ryan.png");
+    background-image: url("../images/ryan1.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    width: 230px;
-    height: 220px;
+    width: 180px;
+    height: 180px;
     box-shadow: inset 0px 0px 3px 0.2px rgb(0, 0, 0);
 }
 
@@ -518,11 +518,11 @@ video {
     border-bottom: 2px solid #1A2238;
     margin: 10px 120px;
     padding: 20px;
-    font-size: 30px;
+    font-size: 24px;
 }
 
 .click img {
-    width: 60px;
+    width: 32px;
     height: auto;
     padding: 10px;
 }
@@ -691,10 +691,6 @@ footer {
         margin: 10px 80px;
     }
 
-    .click img {
-        width: 40px;
-    }
-
     .slideshow-container {
         width: auto;
         position: relative;
@@ -827,11 +823,6 @@ footer {
     .contact h1 {
         font-size: 20px;
         margin: 10px 40px;
-        padding: 10px;
-    }
-
-    .click img {
-        width: 30px;
         padding: 10px;
     }
 
