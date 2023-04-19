@@ -1,350 +1,431 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ryan Xiao Graduate Developer</title>
+    <link rel="stylesheet" type="text/css" href="styles/style.css" />
+    <!--   <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css"> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-18Z8W2SL49"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Ryan Xiao Graduate Developer</title>
-  <link rel="stylesheet" type="text/css" href="styles/style.css">
-  <!--   <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css"> -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-18Z8W2SL49"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-    function gtag() {
-      dataLayer.push(arguments);
-    }
-    gtag('js', new Date());
+      gtag("config", "G-18Z8W2SL49");
+    </script>
+  </head>
 
-    gtag('config', 'G-18Z8W2SL49');
-  </script>
-</head>
-
-<body>
-  <header>
-    <div>
-      <!-- space -->
-    </div>
-
-    <div class="typewriter">
-      <!-- <img src="images/ryan.jpg"> -->
-      <div class="img_con">
-        <div class="home_img">
-        </div>
-      </div>
-      <h1>Ryan Xiao</h1>
-      <h2>Graduate Developer</h2>
-    </div>
-
-    <div class="round">
-      <a href="#about">
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <h3>Scroll down</h3>
-      </a>
-    </div>
-    <div></div>
-
-
-  </header>
-
-  <nav>
-    <a href="#about">About</a>
-    <a href="#skills">Skills</a>
-    <a href="#projects">Projects</a>
-    <a href="#contact">Contact</a>
-  </nav>
-
-  <main>
-    <section id="about" class="about">
-      <article class="header">
-        <!-- <h1>About me -- display for now</h1> -->
-      </article>
+  <body>
+    <header>
       <div>
-        <div class="about_text">
-          <h2>Web & Software Development Graduate</h2>
-          <h3>from Sydney, Australia</h3>
-          <p>Hi, I'm Ryan. I am graduated from front-end & software development. During my study, I have
-            learned <a href="#skills" style="font-weight: bold; font: size 20px;">front-end and programming
-              skills</a>.
-          </p>
-          <p>Building user-friendly front-end websites, developing applications and back-end architecture are truly a
-            passion of
-            mine. I'm looking to pursue a junior tech role with career opportunities.</p>
-          <p>Want to see some examples? <a href="#projects" style="font-weight: bold; font: size 20px;">Scroll down</a>.
-          </p>
-        </div>
-        <img src="images/computer.svg" alt="computer" class="computer">
-        <img src="images/code.svg" alt="code" class="code">
+        <!-- space -->
       </div>
-    </section>
 
-    <section id="skills" class="skills">
-      <article class="header">
-        <!-- <h1>Skills</h1> -->
-      </article>
-      <div>
-        <h2>What can I do?</h2>
+      <div class="typewriter">
+        <!-- <img src="images/ryan.jpg"> -->
+        <div class="img_con">
+          <div class="home_img"></div>
+        </div>
+        <h1>Ryan Xiao</h1>
+        <h2>Graduate Developer</h2>
       </div>
-      <div class="skill_box">
-        <div id="one">
-          <p>HTML5 | CSS</p>
-        </div>
-        <div id="two">
-          <p>JavaScript | React</p>
-        </div>
-        <div id="three">
-          <p>Fundamental PHP | WordPress</p>
-        </div>
-        <div id="four">
-          <p>Command line | Git | GitHub</p>
-        </div>
-        <div id="five">
-          <p>Structured Query Language | Database</p>
-        </div>
-        <div id="six">
-          <p>Android Apps | Fundamental Kotlin</p>
-        </div>
-        <div id="seven">
-          <p>Object-Oriented Design Knowledge</p>
-        </div>
-        <div id="eight">
-          <p>Fundamental C# | Java</p>
-        </div>
-        <div id="nine">
-          <p>Problem Solving | Team Work</p>
-        </div>
+
+      <div class="round">
+        <a href="#about">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <h3>Scroll down</h3>
+        </a>
       </div>
-    </section>
+      <div></div>
+    </header>
 
-    <section id="projects" class="projects">
-      <article class="header">
-        <!-- <h1>Projects -- display for now</h1> -->
-      </article>
-      <div class="proj_data">
+    <nav>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
 
-        <!-- project_dynamic_web -->
-        <div class="proj_text_box">
-          <h2>Develop a dynamic sites</h2>
-          <h3>Languages & Tools: PHP, JavaScript, MySQL, HTML, CSS & MAMP (local server environment)</h3>
-          <p>The aim of this project is to replace the current outdated site with additional dynamic functionality. A
-            functioning multi-category forum with a database connection to store previous topics and posts. A
-            functioning shopping cart that allows users to fill a shopping cart and stores the checkout details of the
-            shopper in the database. User-friendly navigating design and fully responsive on Desktop, medium size
-            screens and Mobile devices.</p>
-          <div class="launch">
-            <a href="https://github.com/bestryan/RETRO_project" target="_blank">
-              <h4>Code</h4>
-            </a>
-            <a href="https://github.com/bestryan/RETRO_project" target="_blank"><img src="images/code_icon.svg"></a>
-            <a href="https://bestryan.github.io/RETRO_project/" target="_blank">
-              <h4 class="demo">Live Demo</h4>
-            </a>
-            <a href="https://bestryan.github.io/RETRO_project/" target="_blank"><img src="images/launch_icon.svg"></a>
+    <main>
+      <section id="about" class="about">
+        <article class="header">
+          <!-- <h1>About me -- display for now</h1> -->
+        </article>
+        <div>
+          <div class="about_text">
+            <h2>Web & Software Developer</h2>
+            <h3>from Sydney, Australia</h3>
+            <p>
+              Hi, I'm Ryan. As a graduate with a focus on web & software
+              development. During my studies, I have learned
+              <a href="#skills" style="font-weight: bold; font: size 20px"
+                >web development and programming skills</a
+              >.
+            </p>
+            <p>
+              Building user-friendly front-end websites, developing applications
+              and back-end architecture are truly a passion of mine. I'm looking
+              to pursue a junior tech role with career opportunities.
+            </p>
+            <p>
+              Want to see some examples?
+              <a href="#projects" style="font-weight: bold; font: size 20px"
+                >Scroll down</a
+              >.
+            </p>
           </div>
-          <video playsinline autoplay loop muted>
-            <source src="images/retro.mp4">
-          </video>
-          <div id="line"></div>
-          <!-- <img id="app_img" src="images/web_proj.png"> -->
+          <img src="images/computer.svg" alt="computer" class="computer" />
+          <img src="images/code.svg" alt="code" class="code" />
         </div>
+      </section>
 
-        <!-- Develop a personal task list -->
-        <div class="proj_text_box">
-          <h2>Youtube clone App</h2>
-          <h3>Languages & Tools: React, JavaScript, MUI-CSS & API</h3>
-          <p>This Youtube clone project was developed within React. User interface styled like an actual Youtube site.
-            It uses JavaScript fetch API to get all video data. It allows users to select different video categories.
-            Search videos, view channel pages if available. and lastly watch selected videos and recommended videos.</p>
-          <div class="launch">
-            <a href="https://github.com/bestryan/React_multi_projects/tree/main/youtube_clone" target="_blank">
-              <h4>Code</h4>
-            </a>
-            <a href="https://github.com/bestryan/React_multi_projects/tree/main/youtube_clone" target="_blank"><img
-                src="images/code_icon.svg"></a>
-            <a href="https://ryanxiao-studio.netlify.app/" target="_blank">
-              <h4 class="demo">Live Demo</h4>
-            </a>
-            <a href="https://ryanxiao-studio.netlify.app/" target="_blank"><img src="images/launch_icon.svg"></a>
-          </div>
-          <img id="app_img" src="images/studio.png">
+      <section id="skills" class="skills">
+        <article class="header">
+          <!-- <h1>Skills</h1> -->
+        </article>
+        <div>
+          <h2>What can I do?</h2>
         </div>
-
-        <!-- project_android_app -->
-        <div class="proj_text_box">
-          <h2>Spend tracker Android App</h2>
-          <h3>Languages & Tools: Kotlin, SQLite, Android Studio</h3>
-          <p>This project is to create a mobile App to work on Android devices. It used SQLite database with DataHelper
-            class for disconnected connection database access to read, delete and edit data to local data on the device.
-            Build a user-friendly interface and date-picker functions. It also allows user to set their budget and
-            records daily expenses. This project is part of the school assessment, but the idea is mine. However it's
-            fundamental, maybe more features will be added.</p>
-          <div class="launch">
-            <a href="https://github.com/bestryan/Spendity_app" target="_blank">
-              <h4>Code</h4>
-            </a>
-            <a href="https://github.com/bestryan/Spendity_app" target="_blank"><img src="images/code_icon.svg"></a>
-            <a></a>
+        <div class="skill_box">
+          <div id="one">
+            <p>HTML5 | CSS</p>
           </div>
-          <img id="app_img" src="images/phone_app.jpg">
+          <div id="two">
+            <p>JavaScript | React</p>
+          </div>
+          <div id="three">
+            <p>Node.js | WordPress</p>
+          </div>
+          <div id="four">
+            <p>Rest APIs | Git | GitHub</p>
+          </div>
+          <div id="five">
+            <p>NoSQL | Relational Database</p>
+          </div>
+          <div id="six">
+            <p>Android Apps | Fundamental Kotlin</p>
+          </div>
+          <div id="seven">
+            <p>Object-Oriented Design Knowledge</p>
+          </div>
+          <div id="eight">
+            <p>Fundamental C# | Java | PHP</p>
+          </div>
+          <div id="nine">
+            <p>Problem Solving | Team Work</p>
+          </div>
         </div>
+      </section>
 
-        <!-- project_squid_game -->
-        <div class="proj_text_box">
-          <h2>Squid game staff management system - Integrate database with web</h2>
-          <h3>Languages & Tools: PHP, MySQL, HTML, CSS & MAMP (local server environment)</h3>
-
-          <p>
-            This project assesses my knowledge and skills in designing and creating a simple web-based system/app to
-            manage employee information. PHP, MySQL, HTML and CSS(BootStrap library) are used in this project.
-            The system allows users to create a new profile, view a profile, edit a profile and permanently delete a
-            profile. It also allowed users to upload photos.
-          </p>
-          <div class="launch">
-            <a href="https://github.com/bestryan/Squid_game-staff-management-system" target="_blank">
-              <h4>Code</h4>
-            </a>
-            <a href="https://github.com/bestryan/Squid_game-staff-management-system" target="_blank"><img
-                src="images/code_icon.svg"></a>
-            <a></a>
+      <section id="projects" class="projects">
+        <article class="header">
+          <!-- <h1>Projects -- display for now</h1> -->
+        </article>
+        <div class="proj_data">
+          <!-- project_dynamic_web -->
+          <div class="proj_text_box">
+            <h2>Develop a dynamic sites</h2>
+            <h3>Languages & Tools: PHP, JavaScript, MySQL, HTML, CSS</h3>
+            <p>
+              The aim of this project is to replace the current outdated site
+              with additional dynamic functionality. A functioning
+              multi-category forum with a database connection to store previous
+              topics and posts. The shopping cart that allows users to fill a
+              shopping cart and stores the checkout details of the shopper in
+              the database. User-friendly navigating design and fully responsive
+              on desktop, medium size and mobile devices.
+            </p>
+            <div class="launch">
+              <a
+                href="https://github.com/bestryan/RETRO_project"
+                target="_blank"
+              >
+                <h4>Code</h4>
+              </a>
+              <a
+                href="https://github.com/bestryan/RETRO_project"
+                target="_blank"
+                ><img src="images/code_icon.svg"
+              /></a>
+              <a
+                href="https://bestryan.github.io/RETRO_project/"
+                target="_blank"
+              >
+                <h4 class="demo">Live Demo</h4>
+              </a>
+              <a
+                href="https://bestryan.github.io/RETRO_project/"
+                target="_blank"
+                ><img src="images/launch_icon.svg"
+              /></a>
+            </div>
+            <video playsinline autoplay loop muted>
+              <source src="images/retro.mp4" />
+            </video>
+            <div id="line"></div>
+            <!-- <img id="app_img" src="images/web_proj.png"> -->
           </div>
 
-          <div class="slideshow-container">
-            <img class="mySlides" id="app_img" src="images/Squid_proj.png">
-            <img class="mySlides" id="app_img" src="images/Squid_proj1.png">
-            <a class="prev" onclick="plusSlides(-1)">⪻</a>
-            <a class="next" onclick="plusSlides(1)">⪼</a>
+          <!-- Develop a personal task list -->
+          <div class="proj_text_box">
+            <h2>Youtube clone App</h2>
+            <h3>Languages & Tools: React, JavaScript, MUI-CSS & API</h3>
+            <p>
+              This youtube clone project was developed within React. User
+              interface styled like an actual Youtube site. It uses JavaScript
+              fetch API to get all video data. It allows users to select
+              different video categories. Search videos, view channel pages if
+              available. and lastly watch selected videos and recommended
+              videos.
+            </p>
+            <div class="launch">
+              <a
+                href="https://github.com/bestryan/React_multi_projects/tree/main/youtube_clone"
+                target="_blank"
+              >
+                <h4>Code</h4>
+              </a>
+              <a
+                href="https://github.com/bestryan/React_multi_projects/tree/main/youtube_clone"
+                target="_blank"
+                ><img src="images/code_icon.svg"
+              /></a>
+              <a href="https://ryanxiao-studio.netlify.app/" target="_blank">
+                <h4 class="demo">Live Demo</h4>
+              </a>
+              <a href="https://ryanxiao-studio.netlify.app/" target="_blank"
+                ><img src="images/launch_icon.svg"
+              /></a>
+            </div>
+            <img id="app_img" src="images/studio.png" />
           </div>
 
-        </div>
-
-        <!-- project_wp_site -->
-        <div class="proj_text_box">
-          <h2>Develop a reservation site for a small business</h2>
-          <h3>Languages & Tools: WordPress CMS, Variety of Plugins & CSS</h3>
-          <p>This project was developed through a small business case study to help the business owner promote their
-            products and surroundings, capable to expand, automation and manage reservations. The site was created on
-            CMS WordPress hosting on Pantheon, using varieties of plugins to meet business requirements. It's a
-            user-friendly and fully
-            responsive design.</p>
-          <div class="launch">
-            <a href="https://dev-barlings-holiday-escapes.pantheonsite.io" target="_blank">
-              <h4>Live Demo</h4>
-            </a>
-            <a href="https://dev-barlings-holiday-escapes.pantheonsite.io" target="_blank"><img
-                src="images/launch_icon.svg"></a>
+          <!-- project_android_app -->
+          <div class="proj_text_box">
+            <h2>Spend tracker Android App</h2>
+            <h3>Languages & Tools: Kotlin, SQLite, Android Studio</h3>
+            <p>
+              This project is to create a mobile app to work on android devices.
+              It used SQLite database with data-helper class for disconnected
+              connection database access to read, delete and edit data to local
+              data on the device. Build a user-friendly interface and
+              date-picker functions. It also allows user to set their budget and
+              records daily expenses. However it's fundamental, maybe more
+              features will be added.
+            </p>
+            <div class="launch">
+              <a
+                href="https://github.com/bestryan/Spendity_app"
+                target="_blank"
+              >
+                <h4>Code</h4>
+              </a>
+              <a href="https://github.com/bestryan/Spendity_app" target="_blank"
+                ><img src="images/code_icon.svg"
+              /></a>
+              <a></a>
+            </div>
+            <img id="app_img" src="images/phone_app.jpg" />
           </div>
-          <img id="app_img" src="images/wp_proj.png">
-        </div>
 
-        <!-- Develop a personal task list -->
-        <div class="proj_text_box">
-          <h2>Develop a personal task list</h2>
-          <h3>Languages & Tools: React, JavaScript & CSS</h3>
-          <p>This small application was developed in React with state & effect hooks. It allows users to add, edit, and
-            delete tasks. Additionally, it allowed the user to mark off completed tasks. Users got a better experience
-            with modern user interfaces and local storage. This is an upgraded version of the previous simple to-do list
-            react app.</p>
-          <div class="launch">
-            <a href="https://github.com/bestryan/React_multi_projects/tree/main/task-app" target="_blank">
-              <h4>Code</h4>
-            </a>
-            <a href="https://github.com/bestryan/React_multi_projects/tree/main/task-app" target="_blank"><img
-                src="images/code_icon.svg"></a>
-            <a href="https://ryan-xiao-task.netlify.app" target="_blank">
-              <h4 class="demo">Live Demo</h4>
-            </a>
-            <a href="https://ryan-xiao-task.netlify.app" target="_blank"><img src="images/launch_icon.svg"></a>
+          <!-- project_squid_game -->
+          <div class="proj_text_box">
+            <h2>
+              Squid game staff management system - Integrate database with web
+            </h2>
+            <h3>Languages & Tools: PHP, MySQL, HTML, CSS</h3>
+
+            <p>
+              This project assesses my knowledge and skills in designing and
+              creating a simple web-based system/app to manage employee
+              information. PHP, MySQL, HTML and CSS(BootStrap library) are used
+              in this project. The system allows users to create a new profile,
+              view a profile, edit a profile and permanently delete a profile.
+              It also allowed users to upload photos.
+            </p>
+            <div class="launch">
+              <a
+                href="https://github.com/bestryan/Squid_game-staff-management-system"
+                target="_blank"
+              >
+                <h4>Code</h4>
+              </a>
+              <a
+                href="https://github.com/bestryan/Squid_game-staff-management-system"
+                target="_blank"
+                ><img src="images/code_icon.svg"
+              /></a>
+              <a></a>
+            </div>
+
+            <div class="slideshow-container">
+              <img class="mySlides" id="app_img" src="images/Squid_proj.png" />
+              <img class="mySlides" id="app_img" src="images/Squid_proj1.png" />
+              <a class="prev" onclick="plusSlides(-1)">⪻</a>
+              <a class="next" onclick="plusSlides(1)">⪼</a>
+            </div>
           </div>
-          <img id="app_img" src="images/task.png">
-        </div>
-<!--         <div><a href="/projects.html">
+
+          <!-- project_wp_site -->
+          <div class="proj_text_box">
+            <h2>Develop a reservation site for a small business</h2>
+            <h3>Languages & Tools: WordPress CMS, Variety of Plugins & CSS</h3>
+            <p>
+              This project was developed through a small business case study to
+              help the business owner promote their products and surroundings,
+              capable to expand, automation and manage reservations. The site
+              was created on CMS WordPress hosting on Pantheon, using varieties
+              of plugins to meet business requirements. It's a user-friendly and
+              fully responsive design.
+            </p>
+            <div class="launch">
+              <a
+                href="https://dev-barlings-holiday-escapes.pantheonsite.io"
+                target="_blank"
+              >
+                <h4>Live Demo</h4>
+              </a>
+              <a
+                href="https://dev-barlings-holiday-escapes.pantheonsite.io"
+                target="_blank"
+                ><img src="images/launch_icon.svg"
+              /></a>
+            </div>
+            <img id="app_img" src="images/wp_proj.png" />
+          </div>
+
+          <!-- Develop a personal task list -->
+          <div class="proj_text_box">
+            <h2>Develop a personal task list</h2>
+            <h3>Languages & Tools: React, JavaScript & CSS</h3>
+            <p>
+              This small application was developed in React with state & effect
+              hooks. It allows users to add, edit, and delete tasks.
+              Additionally, it allowed the user to mark off completed tasks.
+              Users got a better experience with modern user interfaces and
+              local storage. This is an upgraded version of the previous simple
+              to-do list react app.
+            </p>
+            <div class="launch">
+              <a
+                href="https://github.com/bestryan/React_multi_projects/tree/main/task-app"
+                target="_blank"
+              >
+                <h4>Code</h4>
+              </a>
+              <a
+                href="https://github.com/bestryan/React_multi_projects/tree/main/task-app"
+                target="_blank"
+                ><img src="images/code_icon.svg"
+              /></a>
+              <a href="https://ryan-xiao-task.netlify.app" target="_blank">
+                <h4 class="demo">Live Demo</h4>
+              </a>
+              <a href="https://ryan-xiao-task.netlify.app" target="_blank"
+                ><img src="images/launch_icon.svg"
+              /></a>
+            </div>
+            <img id="app_img" src="images/task.png" />
+          </div>
+          <!--         <div><a href="/projects.html">
             <h3 class="oprj">More Projects</h3>
         </div></a> -->
-      </div>
-
-
-
-    </section>
-
-    <section id="contact">
-      <article class="header">
-        <!-- <h1>Contact</h1> -->
-      </article>
-
-      <div class="contact">
-        <h1>Get in touch</h1>
-        <div class="click">
-          <a href="mailto: bestyryan88@gmail.com"><img src="images/mail_icon.svg"></a>
-          <a href="https://github.com/bestryan" target="_blank"><img src="images/github_icon.svg"></a>
-          <a href="https://www.linkedin.com/in/ryan-xiao-32514326a/" target="_blank"><img src="images/linkdin_icon.svg"></a>
         </div>
-      </div>
-    </section>
+      </section>
 
-  </main>
-  <footer>
-  </footer>
-</body>
+      <section id="contact">
+        <article class="header">
+          <!-- <h1>Contact</h1> -->
+        </article>
 
-<script>
-  $(document).ready(function () {
-    // Add smooth scrolling to all links
-    $("a").on('click', function (event) {
+        <div class="contact">
+          <h1>Get in touch</h1>
+          <div class="click">
+            <a href="mailto: bestyryan88@gmail.com"
+              ><img src="images/mail_icon.svg"
+            /></a>
+            <a href="https://github.com/bestryan" target="_blank"
+              ><img src="images/github_icon.svg"
+            /></a>
+            <a
+              href="https://www.linkedin.com/in/ryan-xiao-32514326a/"
+              target="_blank"
+              ><img src="images/linkdin_icon.svg"
+            /></a>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer></footer>
+  </body>
 
-      // Make sure this.hash has a value before overriding default behavior
-      if (this.hash !== "") {
-        // Prevent default anchor click behavior
-        event.preventDefault();
+  <script>
+    $(document).ready(function () {
+      // Add smooth scrolling to all links
+      $("a").on("click", function (event) {
+        // Make sure this.hash has a value before overriding default behavior
+        if (this.hash !== "") {
+          // Prevent default anchor click behavior
+          event.preventDefault();
 
-        // Store hash
-        var hash = this.hash;
+          // Store hash
+          var hash = this.hash;
 
-        // Using jQuery's animate() method to add smooth page scroll
-        // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
-        $('html, body').animate({
-          scrollTop: $(hash).offset().top
-        }, 800, function () {
-
-          // Add hash (#) to URL when done scrolling (default click behavior)
-          window.location.hash = hash;
-        });
-      } // End if
+          // Using jQuery's animate() method to add smooth page scroll
+          // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+          $("html, body").animate(
+            {
+              scrollTop: $(hash).offset().top,
+            },
+            800,
+            function () {
+              // Add hash (#) to URL when done scrolling (default click behavior)
+              window.location.hash = hash;
+            }
+          );
+        } // End if
+      });
     });
-  });
 
-  let slideIndex = 1;
-  showSlides(slideIndex);
+    let slideIndex = 1;
+    showSlides(slideIndex);
 
-  function plusSlides(n) {
-    showSlides(slideIndex += n);
-  }
-
-  function currentSlide(n) {
-    showSlides(slideIndex === n);
-  }
-
-  function showSlides(n) {
-    let i;
-    let slides = document.getElementsByClassName("mySlides");
-    if (n > slides.length) {
-      slideIndex = 1
+    function plusSlides(n) {
+      showSlides((slideIndex += n));
     }
-    if (n < 1) {
-      slideIndex = slides.length
-    }
-    for (i = 0; i < slides.length; i++) {
-      slides[i].style.display = "none";
-    }
-    if (slideIndex > slides.length) {
-      slideIndex = 1
-    }
-    slides[slideIndex - 1].style.display = "block";
-  }
-</script>
 
+    function currentSlide(n) {
+      showSlides(slideIndex === n);
+    }
+
+    function showSlides(n) {
+      let i;
+      let slides = document.getElementsByClassName("mySlides");
+      if (n > slides.length) {
+        slideIndex = 1;
+      }
+      if (n < 1) {
+        slideIndex = slides.length;
+      }
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+      }
+      if (slideIndex > slides.length) {
+        slideIndex = 1;
+      }
+      slides[slideIndex - 1].style.display = "block";
+    }
+  </script>
 </html>
